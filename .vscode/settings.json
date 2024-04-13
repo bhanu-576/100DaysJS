@@ -1,0 +1,9 @@
+{
+    "git.showCommitInput": true,
+    "git.terminalAuthentication": true,
+    "git.terminalGitEditor": false,
+    "git.allowNoVerifyCommit": false,
+    "git.autoStash": false,
+    "git.enableCommitSigning": true,
+    "git.timeline.showUncommitted": false
+}
