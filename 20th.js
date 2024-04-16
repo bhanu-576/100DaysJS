@@ -26,7 +26,5 @@ const reverseString = (str)=>{
 
 }
 
-
-
 // Example usage
 console.log(reverseString("ele"));
