@@ -6,6 +6,13 @@
  If trincate occurs,the function should add '...' to the end of the truncate string.
 
 */
+
+function truncateString(str,num){
+    if(str<=0)
+    return str;
+    if(str.length>num)
+    return str.slice(0,num)+" ..."
+}
  console.log(truncateString("A-tisket a-tasket A green and yellow basket",8));
 
  
