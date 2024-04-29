@@ -13,6 +13,13 @@ It defaults to an empty array.
 ? a will be less than or equal to b.
 */
 
-console.log(numberRangeRecursivs(0,5)); // o/p: [0,1,2,3,4,5]
-console.log(numberRangeRecursivs(3,7)); // o/p: [3,4,5,6,7]
-console.log(numberRangeRecursivs(-2,2)); // o/p: [-2,-1,0,1,2]
+const numberRangeRecursive = (start,end)=>{
+    let arr = [];
+    for(i=start;i<=end;i++)
+    arr.push(i);
+    return arr;
+}
+
+console.log(numberRangeRecursive(0,5)); // o/p: [0,1,2,3,4,5]
+console.log(numberRangeRecursive(3,7)); // o/p: [3,4,5,6,7]
+console.log(numberRangeRecursive(-2,2)); // o/p: [-2,-1,0,1,2]
