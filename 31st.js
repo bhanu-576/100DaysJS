@@ -37,5 +37,5 @@ return (upper>=1 && lower>=1 && digit>=1 )? true :false;
 
 
 console.log(simplePasswordValidator("chdhhvcvwh")); //o/p : false
-console.log(simplePasswordValidator("chdhR7vcvwh")); //o/p : true
+console.log(simplePasswordValidator("chdhR7vcvwh123@node")); //o/p : true
 console.log(simplePasswordValidator("chdhhY7cvwh")); //o/p : true
