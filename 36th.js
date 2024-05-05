@@ -18,16 +18,29 @@
 ? You should use the provided function signatures (objectToArray and arrayToObject) without any additional parameters.
 */
 
+
 const obj = {
     name: "Bhanu Sharma",
     age: 25,
     city : "mathura",
 }
-objectToArray(obj);
+
 
 // Convert the object to an array of key-value pairs.
 
 function objectToArray(obj){
-    console.log(obj);
+    let arr =[]
+   for(const elem of Object.entries(obj))
+   arr.push(elem)
+console.log(arr);
+    return arr;
+}
+const array = objectToArray(obj);
 
+arrayToObject(array);
+// * Array to object
+function arrayToObject(array){
+
+    let obj = Object.fromEntries(array);
+    console.log(obj);
 }
