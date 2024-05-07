@@ -1,4 +1,4 @@
-/*Programming Challenge : Simple Interese Calculation
+/*Programming Challenge : Simple Interest Calculation
  */
 //? Write a function calculaateSimpleInterest that calculates the simple interest given the principal amount, rate of interest per annum, and time in years.
 
