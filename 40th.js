@@ -13,6 +13,6 @@ const generateBarChart = (arr)=>{
         newArr.push(vat.join(""))    
 
     }
-    return newArr;
+    return newArr.join("\n");
 }
 console.log(generateBarChart([5,3,9,2]));
