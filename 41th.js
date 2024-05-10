@@ -18,15 +18,12 @@ const rates = {
 
 
 const convertCurrency = (amount,fromCurrency,toCurrency)=>{
-
-    if(check === fromCurrency || check === toCurrency){
     //fromCurrency to USD
     let usd = amount / rates[fromCurrency];
     //from USD to toCurrency
     return usd*rates[toCurrency];
-    }    
     }
     
-    
+
 //Example usage:
 console.log(convertCurrency(100,"hvgh","INR"));
