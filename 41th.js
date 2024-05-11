@@ -26,4 +26,4 @@ const convertCurrency = (amount,fromCurrency,toCurrency)=>{
     
 
 //Example usage:
-console.log(convertCurrency(100,"hvgh","INR"));
+console.log(convertCurrency(100,"GBP","INR"));
