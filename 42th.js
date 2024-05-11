@@ -29,16 +29,20 @@
     b ex- 70%10=0, which is 0,so 79927398713 is valid according to Luhn
     */
 
+    // Aray taking method made by me
     const validateCreditCard = (card)=>{
+        //reverse and remove hyphen
         card =card.split("-").join("");
-        card =card.split("");
+        card =card.split("").reverse();
         let val =[];
+        // step 3
         card.map((curr,index)=>{
-            if(index===0||index%2===0)
+            if(index===1||index%2!=0)
             val.push(curr*2);
             else
             val.push(curr);
         })
+        // step 4
         card =[];
         for(let arr of val){
             if(arr>9)
@@ -46,10 +50,10 @@
         else
         card.push(parseInt(arr));
         }
-       const valAdd = card.reduce((curr,prev)=> curr+prev);
+        //step 5
+       const valAdd = card.reduce((accum,curr)=> accum+curr,0);
+       //step 6
        return valAdd%10===0?true:false;
-       
-        
     }
 
 
