@@ -19,3 +19,4 @@ const extractNumbers = (str)=>{
 
 console.log(extractNumbers("abc123def456"));//output:["123","456"]
 console.log(extractNumbers("no numbers here")); //O/P:null
+console.log(extractNumbers("1a2b3c4d5e"));// O/P:['1','2','3','4','5']
