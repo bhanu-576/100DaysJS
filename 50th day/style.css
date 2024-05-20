@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid black;
+    margin: 10rem 10rem 10rem 30rem;
+    padding: 30px;
+    width: 30vw;
+    height: 50vh;
+
+}
+input{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+input::placeholder{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: skyblue;
+    border: none;
+    size: 100px;
+    font-size: larger;
+    border: 2px solid black;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 7px;
+    outline: none;
+    padding: 10px
+}
+button:hover {
+    background-color: burlywood;
+    transition: 1s ease;
+}
+div{
+    color: red;
+}
